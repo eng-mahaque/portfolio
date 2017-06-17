@@ -1,0 +1,293 @@
+/*
+	Author : Md. Anamul Haque 
+	Email  : mail.anamulhaque@gmail.com
+	Version: 1.0
+*/
+
+
+/*******************
+    Global CSS
+*******************/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.no-padding{
+	padding: 0px;
+}
+.btn-default:hover {
+	background-color: #25b1c2;
+	border-color: #25b1c2;
+	color: #ffffff;
+}
+
+/**********************
+      Header CSS
+**********************/
+.header{
+	background: url(../images/top_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.header-top{
+	padding-top: 20px;
+}
+.header ul{
+	list-style: none;
+    padding-top: 7px;
+    padding-left: 51px;
+    font-size: 15px;
+}
+.header ul li{
+	display: inline;
+	padding-right: 20px;
+	font-weight: 600;
+}
+.header ul li a:hover{
+	color: #39c9da;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #26b3c4;
+}
+.header-middle h1{
+	text-align: center;
+	font-weight: 700;
+	padding-top: 174px;
+}
+.btn-header{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+.btn-default{
+	padding: 15px 65px;
+	color: #ffffff;
+	font-weight: 600;
+	background-color: #39c9da;
+	font-size: 20px;
+	border-color: #39c9da;
+}
+.logo:hover{
+	transform: scale(1.1);
+}
+
+/**********************
+    About us CSS
+**********************/
+.about-us{
+	background-color: #fafafa;
+	padding-top: 25px;
+	padding-bottom: 42px;
+}
+.about-us h2{
+	text-align: center;
+}
+.abp{
+	text-align: center;
+}
+.aimg{
+	padding-top: 65px;
+}
+.sub h3{
+	font-size: 21px;
+	padding-bottom: 5px;
+}
+.under-about{
+	padding-bottom: 15px;
+}
+.about-us p{
+	padding-bottom: 10px;
+}
+.btn-about{
+	font-size: 19px;
+}
+
+
+/**********************
+    Potfolio CSS
+**********************/
+.portfolio{
+	background-color: #f4f4f4;
+}
+.portfolio h2{
+	text-align: center;
+}
+.ptp{
+	text-align: center;
+	padding-bottom: 20px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}    
+a:hover{
+	color: #fff;
+    text-decoration: none;
+}
+.portfolio h5{
+	font-weight: 600;
+}
+.caption .pull-right{
+	margin-top: -28px;
+}
+
+
+.thumbnail {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.thumbnail:hover .image {
+  opacity: 0.8;
+}
+
+.thumbnail:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 16px 32px;
+  border:3px solid #ffffff;
+}
+
+/**********************
+    Services CSS
+**********************/
+.services{
+	background-color: #fafafa;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.thumbnailsvc{
+	padding-bottom: 25px;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 11px #e4e1e1;
+}
+.services h2{
+	text-align: center;
+}
+.services p{
+	text-align: center;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.r1,.r2,
+.r3,.r4{
+	text-align: center;
+}
+.fa-paint-brush,
+.fa-camera,
+.fa-scissors,
+.fa-html5{
+	padding-top: 20px;
+	color: #39c9da;
+	font-size: 30px;	
+}
+.services h3{
+	text-align: center;
+	margin-top: 3px;
+}
+.r1,.r2,
+.r3,.r4{
+	padding-bottom: 15px;
+}
+.sp{
+	padding-bottom: 5px;
+}
+.servicebtn{
+    font-size: 14px;
+    padding: 7px 13px;
+}
+.thumbnailsvc:hover{
+	background-color: #39c9da;
+}
+.thumbnailsvc:hover h3{
+	color: #ffffff;
+}
+.thumbnailsvc:hover p{
+	color: #ffffff;
+}
+.thumbnailsvc:hover i{
+	color: #ffffff;
+}
+.thumbnailsvc:hover .servicebtn{
+	color: #333;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+/**********************
+    Contact us CSS
+**********************/
+.contact-us{
+	background-color: #f4f4f4;
+	padding-bottom: 40px;
+}
+.contact-us h2{
+	text-align: center;
+	font-weight: 600;
+	font-size: 28px;
+}
+.cp{
+	text-align: center;
+}
+.contact-us h4{
+	font-weight: 600;
+}
+.cp2{
+	padding-top: 15px;
+}
+.contact-us h5{
+	font-weight: 600;
+	font-size: 15px;
+	padding-top: 5px;
+}
+.lp{
+	margin-bottom: -1px;
+}
+.form{
+	padding-top: 15px;
+}
+.contact-field{
+	border: none;
+	background: #ffffff;
+	color: gray;
+	padding: 10px 25px;
+	width: 100%;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+/**********************
+    Footer CSS
+**********************/
+.footer{
+	background-color: #39c9da;
+	padding-top: 12px;
+}
+.footer p{
+	text-align: center;
+	color: #ffffff;
+}
